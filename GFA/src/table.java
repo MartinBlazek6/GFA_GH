@@ -16,6 +16,7 @@ public class table {
 // 9 * 15 = 135
 // 10 * 15 = 150
     public static void main(String[] args) {
+
     int main = 15;
     int current = 1;
         for (int i = 0; i < 10; i++) {
@@ -26,7 +27,7 @@ public class table {
         var block = "*";
         var space = " ";
         int r = 1;
-        int r2 = 10; //this can set size of pyramide
+        int r2 = 4; //this can set size of pyramide
         int floor = r2+1;
         for (int i = 0; i < floor; i++) {
             System.out.print(space.repeat(r2) + block.repeat(r) + "\n");
